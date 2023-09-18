@@ -7,6 +7,11 @@ public class Chapter5 {
     //2つのフィールドを持っている
     String title;//それぞれ独立した値をセットできる
     String author;
+
+    //メソッドの概要
+    void printTitle(){
+        System.out.println(this.title);//thisは省略可能
+    }
     }
         
         //1つ目の書物オブジェクト    
