@@ -12,6 +12,7 @@ public class Chapter5 {
             void printTitle(){
                 //メソッドにはオブジェクトに対する処理が書かれている
                 System.out.println(this.title);//thisは省略可能
+                System.out.println(author);//thisは省略可能
             }
         }
         
@@ -24,7 +25,8 @@ public class Chapter5 {
         //2つ目の書物オブジェクト
         Book book2 = new Book();
         book2.title = "Showstopper!";
-
+        book2.author = "Ryu Takakura";
+        book2.printTitle();
         //
     }
 }
