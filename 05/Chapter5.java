@@ -1,7 +1,7 @@
 public class Chapter5 {
 
 
-    public static void main(String... args){
+    public static void main(String[] args){
         //書物クラスの定義図
         class Book{
             //2つのフィールドを持っている
@@ -27,6 +27,5 @@ public class Chapter5 {
         book2.title = "Showstopper!";
         book2.author = "Ryu Takakura";
         book2.printTitle();
-        //
     }
 }
